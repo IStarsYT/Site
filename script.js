@@ -6,13 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }, 2200);
 
-    const downloadBtns = document.querySelectorAll('.download-action-btn');
-    downloadBtns.forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            e.preventDefault();
-            alert("NyxarWare İndirme Yöneticisi: Sunucu altyapısı şu anda hazırlanıyor. Dosya daha sonra eklenecektir.");
-        });
-    });
 
     const faqQuestions = document.querySelectorAll('.faq-question');
     faqQuestions.forEach(q => {
